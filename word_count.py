@@ -22,7 +22,9 @@ chars = 0
 
 for line in fh:
 	print(line)
+	lines += 1
 
+print(lines)
 
 #-------------------------------------------------------------------------------
 # our code for analyzing the data
